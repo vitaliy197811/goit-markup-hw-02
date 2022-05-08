@@ -1,0 +1,54 @@
+/*цвет основного текста #212121*/
+/*цвет вторичного текста #757575*/
+/*цвет текста акцент #2196F3*/
+/*цвет текста активн #FFFFFF/
+/*основной цвет фона #E5E5E5*/
+
+:root {
+    --primary-text-color: #21212;
+    --main-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --active-text-color: #FFFFFF;
+}
+
+body {
+    
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;    
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+/*Логотип*/
+.logo {
+    color: var(--accent-text-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent {
+    color: #000;
+}
+
+.logo:hover, .logo-accent {
+     
+}
+
+/*навигация*/
+
+.nav a:hover, .nav a:focus {
+    color: var(--accent-text-color);
+}
