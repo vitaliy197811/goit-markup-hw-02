@@ -11,8 +11,7 @@
     --active-text-color: #FFFFFF;
 }
 
-body {
-    
+body {    
     background-color: #E5E5E5;
     color: var(--primary-text-color);
 
@@ -26,9 +25,14 @@ ul {
 a {
     text-decoration: none;
     color: var(--primary-text-color);
+}    
+
+.link:active {
+    color: var(--accent-text-color);
 }
 
-/*Логотип*/
+/*шапка*/
+/*логотип*/
 .logo {
     color: var(--accent-text-color);
 
@@ -43,12 +47,137 @@ a {
     color: #000;
 }
 
-.logo:hover, .logo-accent {
-     
+.logo-accent:hover,
+.logo-accent:focus {
+    color: var(--accent-text-color);
 }
 
-/*навигация*/
+/*навигация + контакты*/
+
+.nav .contact {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact {
+    color: var(--main-text-color);
+}
 
 .nav a:hover, .nav a:focus {
     color: var(--accent-text-color);
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-text-color);
+}
+
+/*банер*/
+.banner {
+    background-color: #2F303A;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+
+.button {
+    background-color: var(--accent-text-color);
+
+    ont-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+}
+
+.quality h3 {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.quality p {
+    color: var(--main-text-color);
+
+    font-family: 'Roboto' sans-serif;    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.activity h2, .team h2 {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team h3 {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    color: var(--main-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*портфолио*/
+
+.work h3 {
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.work p {
+    color: var(--main-text-color);
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
