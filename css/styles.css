@@ -162,6 +162,15 @@ footer {
     background-color: #2F303A;    
 }
 
+.logo-accent-footer {
+    color: #FFFFFF;
+}
+
+.logo-accent-footer:hover,
+.logo-accent-footer:focus {
+    color: var(--accent-text-color);
+}
+
 address {
     font-style: normal;
 }
